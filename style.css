@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: rgb(21, 126, 136);
+    font-size: 2rem;
+  }
+
+  .container {
+    background-image: linear-gradient(to bottom right, rgb(180, 136, 136), rgb(243, 243, 219));
+    padding-top: 50px;
+    position: relative;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;   
+    text-align: center;
+  }  
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(14, 158, 172);
+  }
+
+  .intro {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .starfish1 {
+    height: 15rem;
+    display: flex;
+    padding: 5px;
+    padding-left: 150px;
+  }
+
+  .starf {
+    display: flex;
+    justify-content: end;
+    padding-right: 250px;
+    padding-bottom: 100px;
+  }
+
+  .starfish2 {
+    height: 15rem;
+    padding: 5px;
+    padding-left: 150px;
+    justify-content: end;
+  }
+
+
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  section div div .me {
+    border-radius: 50%;
+    width: 45rem;
+    height: 36rem;
+    border: 5px solid rgb(14, 158, 172);
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 90px;
+  }
+
+  .Greetings {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 90px;
+  }
+
+  #plus {
+    color: rgb(223, 157, 157);
+  }
+
+  #years {
+    text-align: left;
+    padding-top: 50px;
+  }
+
+  .grid {
+    background-image: linear-gradient(to bottom right, rgb(180, 136, 136), rgb(243, 243, 219));
+    padding-bottom: 50px;  
+}
+
+  .part-two-two {
+    font-size: 5rem;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 250px 0 250px;
+  }
+
+  .ptt1 {
+    width: 400px;
+    float: left;
+    padding-right: 30px;
+  }
+
+  .ptt2 {
+    height: 300px;
+    float: left;
+    padding-right: 30px;
+  }
+
+  .ptt3 {
+    width: 400px;
+    float: left;
+    padding-right: 30px;
+  }
+
+  .ptt4 {
+    width: 300px;
+    float: left;
+    padding-right: 30px;
+  }
+
+  .ptt5 {
+    width: 300px;
+    float: left;
+    padding-right: 30px;
+  }
+
+  .Programmer {
+    grid-area: 3 / 1 / 4 / 3;
+  }
+
+  .habil {
+    margin-right: 20px;
+  }
+
+  .part-three {
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .noline {
+    text-decoration: none;
+  } 
+
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width:1200px) {
+    body {
+        border: 10px solid black;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    .habil {
+        margin: 0;
+    }
+  
